@@ -1,0 +1,27 @@
+{
+  "name": "dbevolve",
+  "version": "1.0.0",
+  "description": "A basic database source control made for use with PostgreSQL.",
+  "main": "dbevolve.run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "db",
+    "postgres",
+    "postgresql",
+    "evolve"
+  ],
+  "bin": {
+    "dbevolve": "./dbevolve.link.js"
+  },
+  "author": "Daniel Lucas",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^6.2.3",
+    "shelljs": "^0.7.7"
+  },
+  "devDependencies": {
+    "log4js": "^1.1.1"
+  }
+}

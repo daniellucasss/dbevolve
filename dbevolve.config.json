@@ -1,0 +1,9 @@
+{
+    "url": "postgres://postgres@localhost:5432/aedes",
+    "tableName": "dbevolve",
+    "scripts": [
+        { "author": "test", "script": "CREATE TABLE TESTE(ID INT PRIMARY KEY NOT NULL, TESTE TEXT);"},
+        { "author": "test", "script": "CREATE TABLE TOAST(ID INT PRIMARY KEY NOT NULL, TESTE TEXT);"},
+        { "author": "test", "script": "CREATE TABLE TOASTED(ID INT PRIMARY KEY NOT NULL, TESTE TEXT);"}
+    ]
+}
