@@ -1,6 +1,6 @@
 {
   "name": "dbevolve",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A basic database source control made for use with PostgreSQL.",
   "main": "dbevolve.run.js",
   "scripts": {
