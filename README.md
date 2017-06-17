@@ -21,7 +21,7 @@ The name 'scripts' its a reference to the scripts you want to run in your databa
 
 Runs:
 ```
-node /node_modules/dbevolve
+node ./node_modules/dbevolve
 ```
 
 And see the magic happens!
